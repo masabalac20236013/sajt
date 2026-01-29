@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c78fff;
+}
+
+img {
+	width: 400px;
+	height: 400px;
+	max-width: 100%;
+    height: auto;
+}
+
+img:hover {
+    content: url("ja2.png");
+}

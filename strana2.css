@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #c181fa;
+    display: flex;
+    padding: 0;
+    border: 0;
+}
+
+.sidebar {
+    margin: 0;
+    width: 25%;
+    height: 100vh;
+    background-color: #a566ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.back {   
+}
+
+.behance {
+}
+
+.main {
+    border: 0;
+    padding: 0;
+    width: 75%;
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+    position: relative;
+
+}
+
+.naslov {
+}
+
+.ja{
+}
+
+.wobble-vertical {
+  animation: wobble-vertical 2s ease-in-out infinite alternate;
+}
+
+@keyframes wobble-vertical {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Adjust the value for desired wobble height */
+  }
+}
+
+.slike {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  margin-top: 90px;
+}
+
+.slika2 {
+    padding: 10;
+}
